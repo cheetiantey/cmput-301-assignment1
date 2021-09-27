@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/medName_editText"
+        android:maxLength="40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Medicine name" />
+
+
+    <EditText
+        android:id="@+id/doseAmount_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:digits="0123456789."
+        android:inputType="number"
+        android:hint="Dose Amount" />
+
+    <Spinner
+        android:id="@+id/doseUnit"
+        android:layout_width="fill_parent"
+        android:hint="Dose unit"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:id="@+id/dailyFrequency_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:digits="0123456789"
+        android:inputType="number"
+        android:hint="Daily frequency" />
+
+    <DatePicker
+        android:id="@+id/dateStarted_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:calendarViewShown="true"
+        android:hint="Date Started" />
+</LinearLayout>

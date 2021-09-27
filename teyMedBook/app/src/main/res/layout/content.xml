@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="sidsjoidfsoijfoisdjf"
+    android:textSize="20sp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/medName"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Medicine"
+        android:textSize="13sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/dateStarted"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Date"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/dosage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Dosage"
+        android:textSize="12sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/dailyFrequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="frequency"
+        android:textSize="10sp">
+    </TextView>
+
+</LinearLayout>
+
